@@ -1,0 +1,167 @@
+.logo{
+    color: red;
+}
+
+li a{
+    font-family: sans-serif;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+span{
+    padding: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.language{
+    width: 45px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.main{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    margin: 10px;
+}
+
+td{
+    padding: 7px;
+}
+
+
+.iphone_add{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.iphon_img{
+    width: 350px;
+    display: flex;
+    height: 270px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+span{
+    color: grey;
+    padding: 3px;
+}
+
+select{
+    width: 80px;
+    border: 1px solid grey;
+    color: grey;
+    outline-style: none;
+    padding: 3px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.card{
+    margin: 10px;
+}
+
+input[type='range']{
+    width: 100%;
+    height: 5px;
+}
+
+input[type=color]{
+	width: 35px;
+	height: 35px;
+	border: none;
+	border-radius: 100%;
+	background: none;
+    padding: 5px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+ /*change color of the swatch border here*/
+input[type="color"]::-webkit-color-swatch {
+	border-radius: 40px;
+}
+
+.fa-star,.fa-star-half-stroke{
+    color: gold;
+}
+
+p{
+    font-size: 14px;
+}
+
+.hot{
+    width: 60px;
+    padding: 3px;
+    text-align: center;
+}
+
+.border-dark{
+    border-radius: 5px;
+}
+
+.laptop_img{
+    width: 270px;
+    display: flex;
+    height: 140px;
+    justify-content: space-around;
+}
+
+hr{
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+.child_footer{
+    width: 350px;
+    margin: 20px;
+}
+
+
+footer div h2{
+    letter-spacing: 5px;
+    color: grey;
+}
+
+.fa-twitter
+{
+    color: cornflowerblue;
+}
+
+.fa-facebook-f{
+    color: blue;
+}
+
+
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 5px;
+}

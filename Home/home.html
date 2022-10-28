@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Oswald:wght@200&family=Raleway:wght@100;200&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./home.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg border-bottom">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-around collapse navbar-collapse" id="navbarNav">
+
+                <div>
+                    <select name="" id="" class="border-0 language">
+                        <option value="">EN</option>
+                    </select>
+                    <select name="" id="" class="border-0 language ">
+                        <option value="">USD</option>
+                    </select>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text-dark">My Profile</span>
+                    <i class="fa-solid fa-store"></i>
+                    <span class="text-dark">0 Items</span>
+                    <span> $ 0.00 </span>
+                    <i class="fa-solid fa-magnifying-glass  mt-1"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="text-center fw-bolder fs-2 font-monospace">
+        Shopy<span class="logo">.my</span>
+    </div>
+
+    <ul class="nav justify-content-center fs-6 fw-bold d-flex">
+        <li class="nav-item">
+            <a class="nav-link active text-primary" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">STORE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">IPHONE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">IPAD</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">MACBOOK</a>
+        </li>
+    </ul>
+    <!-- carousel -->
+
+    <div class="position-relative main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Images/POCO-F4-GT-Banner-en.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/tvsredmi.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../Images/redmiMobile.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center parent">
+            <div class="child box3 d-flex text-light">
+                <div class="">
+                    <h6>iPhone 6</h6>
+                    <p>Lorem ipsum dolor, sit</p>
+                    <p class="fs-5">$342</p>
+                </div>
+                <div>
+                    <img src="../Images/pngkey.com-iphone-6s-png-9705572.png" height="100px" width="100px" alt="">
+                </div>
+            </div>
+            <div class="child box1 d-flex">
+                <div class="">
+                    <h6>Headphones-Black</h6>
+                    <p>Lorem ipsum dolor, sit</p>
+                    <p class="fs-5">$342</p>
+                </div>
+                <div>
+                    <img src="../Images/Headphones-Transparent-PNG.png" height="100px" width="100px" alt="">
+                </div>
+            </div>
+            <div class="child box2 d-flex text-light">
+                <div class="">
+                    <h6>GoPro Hero6</h6>
+                    <p>Lorem ipsum dolor, sit</p>
+                    <p class="fs-5">$326</p>
+                </div>
+                <div>
+                    <img src="../Images/pngegg.png" height="100px" width="100px" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="text-center fs-4 fw-bold best_seller">
+        BEST SELLER
+    </div>
+
+
+    <ul class="nav justify-content-center fw-bold">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">All</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-primary" href="#">Mac</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">iPhone</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">iPad</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">Accessories</a>
+        </li>
+    </ul>
+
+    <!-- grid box -->
+
+    <div class="mobile_items">
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted "> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted "> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted "> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted"> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted"> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted"> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted"> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+        <div class="card p-2" style="width: 18rem; ">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h6 class="card-title">Dell Laptop</h6>
+                <img src="../Images/rating.png" class="rating" width="70px" height="60px" alt="">
+                <div class="text-muted"> <span class="logo"> $342 </span> <s>452</s> </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load more -->
+
+    <div class="text-center mb-4 fs-4 fw-bold">
+        <a href=""> Load More </a>
+    </div>
+
+
+    <div class="bg-primary text-light iphone_add row">
+        <div class="col-4">
+            <div class="fs-2 font-sans">
+                iPhone 6 Plus
+            </div>
+            <p>Performance and design.Taken right to the edge</p>
+            <a href="" class="fs-6 fw-bolder text-light show_more">SHOPE NOW</a>
+        </div>
+        <div class="iphon_img col-8 p-5">
+            <img src="../Images/pngkey.com-iphone-6s-png-9705572.png" alt="">
+        </div>
+    </div>
+
+    <!-- Servises -->
+
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="text-center child_footer">
+            <i class="fa-solid fa-truck-fast text-danger fs-3 m-2"></i>
+            <h5> FREE SHIPPING </h5>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatum eos facilis
+                doloribus
+                voluptates iusto minima explicabo!</p>
+
+        </div>
+        <div class="text-center child_footer">
+            <i class="fa-solid fa-coins text-danger fs-3 m-2"></i>
+            <h5> 100% REFUND</h5>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatum eos facilis
+                doloribus
+                voluptates iusto minima explicabo!</p>
+        </div>
+        <div class="text-center child_footer">
+            <i class="fa-solid fa-headset fs-3 text-danger m-2"></i>
+            <h5> SUPPORT 24/7</h5>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatum eos facilis
+                doloribus
+                voluptates iusto minima explicabo!</p>
+        </div>
+    </div>
+
+    <!-- Latest news -->
+
+    <h3 class="text-center">LATEST NEWS</h3>
+
+    <div class="mt-5 latest_new">
+        <div class="box">
+            <img src="../Images/arnel-hasanovic-4oWSXdeAS2g-unsplash.jpg" height="150px" width="160px" alt="">
+            <div class="ms-3 mt-2">
+                <span class="text-muted">01 Jan 2021</span>
+                <h6 class="fw-bold">Typesetting industry</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../Images/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg" height="150px" width="160px" alt="">
+            <div class="ms-3 mt-2">
+                <span class="text-muted">01 Jan 2021</span>
+                <h6 class="fw-bold">Typesetting industry</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../Images/tron-le-yPFAAwomTYQ-unsplash.jpg" height="150px" width="160px" alt="">
+            <div class="ms-3 mt-2">
+                <span class="text-muted">01 Jan 2021</span>
+                <h6 class="fw-bold">Typesetting industry</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- product featur -->
+    <h3 class="text-center">FEATURED PRODUCT</h3>
+    <br>
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="box">
+            <img src="../Images/Headphones-Transparent-PNG.png" height="150px" width="160px" alt="">
+            <div class="ms-3 mt-2">
+                <span class="fw-bold">Beat Solo 2 On Ear</span>
+                <h6 class="fw-bold">Headphones-Black</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <div>
+                    <span class="text-danger">$345</span> <s class="fw-bold">453</s>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../Images/in5510nt-cnb-00055lf110-gy.avif" height="150px" width="180px" alt="">
+            <div class="ms-3 mt-2">
+                <span class="fw-bold">Dell Laptop</span>
+                <h6 class="fw-bold">Laptitude-5465</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <div>
+                    <span class="text-danger">$345</span> <s class="fw-bold">453</s>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../Images/kelly-sikkema-4xHgz_ZllQs-unsplash.jpg" height="150px" width="160px" alt="">
+            <div class="ms-3 mt-2">
+                <span class="fw-bold">iPad</span>
+                <h6 class="fw-bold">iPad-Black</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <div>
+                    <span class="text-danger">$345</span> <s class="fw-bold">453</s>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- search -->
+
+    <div class="text-center d-flex justify-content-center m-5">
+        <div>
+            <input type="text" placeholder="serach queries" name="" id="">
+        </div>
+        <button class="bg-primary search">Search</button>
+    </div>
+
+
+
+
+
+    <div class="border"></div>
+    <br>
+
+    <footer class="d-flex flex-wrap justify-content-center">
+        <div class="child_footer">
+            <h2>BOUNCER</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, quas! At alias quaerat amet
+        </div>
+        <div class="child_footer">
+            <h4>
+                Follow Us
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <i class="fa-brands fa-twitter fs-4 p-2"></i>
+            <i class="fa-brands fa-facebook-f fs-4 p-2"></i>
+        </div>
+        <div class="child_footer">
+            <h4>Contact Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni suscipit vitae fugit cum,
+            </p>
+        </div>
+    </footer>
+    <div class="border"></div>
+    <br>
+
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="m-2">
+            <h4>Informations</h4>
+            <li>
+                About
+            </li>
+            <li>
+                Informations
+            </li>
+            <li>
+                Privacy Policy
+            </li>
+            <li>Terms & Condition</li>
+        </div>
+        <div class="m-2">
+            <h4>Service</h4>
+            <li>
+                About
+            </li>
+            <li>
+                Informations
+            </li>
+            <li>
+                Privacy Policy
+            </li>
+            <li>Terms & Condition</li>
+        </div>
+        <div class="m-2">
+            <h4>Extras</h4>
+            <li>
+                About
+            </li>
+            <li>
+                Informations
+            </li>
+            <li>
+                Privacy Policy
+            </li>
+            <li>Terms and Condition</li>
+        </div>
+        <div class="m-2">
+            <h4>My Account</h4>
+            <li>
+                About
+            </li>
+            <li>
+                Informations
+            </li>
+            <li>
+                Privacy Policy
+            </li>
+            <li>Terms & Condition</li>
+        </div>
+        <div class="m-2">
+            <h4>Usefull Link</h4>
+            <li>
+                About
+            </li>
+            <li>
+                Informations
+            </li>
+            <li>
+                Privacy Policy
+            </li>
+            <li>Terms & Condition</li>
+        </div>
+        <div class="m-2">
+            <h4>Our Offers</h4>
+            <li>
+                About
+            </li>
+            <li>
+                Informations
+            </li>
+            <li>
+                Privacy Policy
+            </li>
+            <li>Terms & Condition</li>
+        </div>
+    </div>
+    <br>
+
+    <div class="border"></div>
+    <div class="d-flex justify-content-around bg-light p-3">
+        <div class="text-muted">
+            ©2020 Ecommerce them by www.eCommerce.com
+        </div>
+        <div>
+            <i class="fa-brands fa-cc-paypal fs-3 p-2"></i>
+            <i class="fa-regular fa-credit-card fs-3 p-2"></i>
+            <i class="fa-brands fa-cc-visa fs-3 p-2"></i>
+            <i class="fa-brands fa-cc-mastercard fs-3 p-2"></i>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="../bootstrap/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

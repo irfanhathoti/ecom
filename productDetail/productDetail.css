@@ -1,0 +1,142 @@
+.logo{
+    color: red;
+}
+
+.nav-link{
+    color: black;
+    font-family: sans-serif;
+    font-stretch: semi-condensed;
+}
+li{
+    margin: 10px;
+}
+
+.text-bar{
+    font-size: 14px;
+}
+
+.fa-star,.fa-star-half-stroke{
+    color: gold;
+    font-size: 12px;
+}
+
+.laptop_img{
+    width: 270px;
+    display: flex;
+    height: 140px;
+    justify-content: space-around;
+}
+
+.laptop_img1{
+    width: 370px;
+    display: flex;
+    height: 330px;
+    justify-content: space-around;
+}
+
+
+.parent{
+    font-size: 13px;
+}
+
+td{
+    padding: 5px;
+}
+
+input[type=color]{
+	width: 25px;
+	height: 25px;
+	border: none;
+	border-radius: 100%;
+	background: none;
+    padding: 5px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+ /*change color of the swatch border here*/
+input[type="color"]::-webkit-color-swatch {
+	border-radius: 40px;
+}
+
+
+select{
+    width: 80px;
+    border: 1px solid grey;
+    color: grey;
+    outline-style: none;
+    padding: 3px;
+    font-size: small;
+}
+.fa-cart-shopping{
+    font-size: 13px;
+}
+
+.facebook{
+    background-color: darkblue;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+
+}
+
+.twitter{
+    background-color: #2192FF;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+}
+
+.hero_container{
+    background-color: rgba(128, 128, 128, 0.267);
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.iphon_img{
+    width: 220px;
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.child_footer{
+    width: 350px;
+    margin: 20px;
+}
+
+
+footer div h2{
+    letter-spacing: 5px;
+    color: grey;
+}
+
+.twitr
+{
+    color: cornflowerblue;
+}
+
+.facebk{
+    color: blue;
+}
+
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+

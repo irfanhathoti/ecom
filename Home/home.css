@@ -1,0 +1,181 @@
+.logo{
+    color: red;
+}
+
+li a{
+    font-family: sans-serif;
+}
+
+span{
+    padding: 5px;
+}
+
+.nav-link{
+    color: black;
+    font-family: sans-serif;
+    font-stretch: semi-condensed;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.language{
+    width: 45px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.mobile_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.child{
+    padding: 15px;
+}
+.box3{
+    background-color: tomato;
+}
+
+.box1{
+    background-color:whitesmoke;
+}
+
+
+
+.box2{
+    background-color:grey;
+}
+
+.parent{
+    position: absolute;
+    top: 90%;
+    left: 16%;
+    z-index: 10;
+}
+
+.best_seller{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 980px) {
+    .parent{
+        position: relative;
+        width: 250px;
+        margin-top: 10px;
+    }
+
+   
+}
+
+.card{
+    margin: 5px;
+}
+
+.load_more{
+    color: deepskyblue;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.load_border{
+    background-color: deepskyblue;
+    height: 7px;
+    width: 100px;
+}
+
+.latest_new{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 350px;
+    margin: 10px;
+}
+
+
+.iphone_add{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.iphon_img{
+    width: 300px;
+    display: flex;
+    height: 200px;
+}
+
+.show_more{
+    text-decoration:underline 2px white;
+}
+.fa-star-half-stroke{
+    color: gold;
+}
+.fa-star{
+    color: gold;
+}
+::placeholder{
+    color: grey;
+}
+
+input{
+    outline-style: none;
+    height: 50px;
+    width: 350px;
+    border: 1px solid grey;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.search{
+    border: none;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.child_footer{
+    width: 350px;
+    margin: 20px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+footer div h2{
+    letter-spacing: 5px;
+    color: grey;
+}
+
+.fa-twitter
+{
+    color: cornflowerblue;
+}
+
+.fa-facebook-f{
+    color: blue;
+}
+
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
